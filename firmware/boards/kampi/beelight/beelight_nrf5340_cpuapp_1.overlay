@@ -45,4 +45,10 @@
         resolution = <0>;
         frequency = <0>;
     };
+
+    bme688: bme688@76 {
+        status = "okay";
+        compatible = "bosch,bme680";
+        reg = <0x76>;
+    };
 };
